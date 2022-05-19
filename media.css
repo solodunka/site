@@ -1,0 +1,423 @@
+@media (max-width: 1350px) {
+    .form__wrap {
+        width: 485px;
+    }
+
+    .whoAmI__img {
+        width: 500px;
+    }
+
+    .whoAmI__text {
+        width: 55%;
+        margin-left: 20px;
+    }
+
+    .portfolio__wrap {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .container_custom {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .whoAmI__text p {
+        font-size: 20px;
+    }
+
+
+    .big_crop_container img {
+        width: 450px;
+    }
+
+    .big_crop_container {
+        width: 450px;
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .block__title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .right__header {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .main__greeting {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .whoAmI {
+        flex-direction: column;
+        margin-top: 150px;
+        row-gap: 30px;
+    }
+
+    .whoAmI__text,
+    .whoAmI__img {
+        width: 75%;
+    }
+}
+
+@media (max-width: 900px) {
+    .services__wrap {
+        height: fit-content;
+        padding-top: 30px;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 850px) {
+    .main__picture img {
+        width: 380px;
+    }
+}
+
+@media (max-width: 767px) {
+    .services__wrap,
+    .portfolio__wrap {
+        display: none;
+    }
+
+    .big__carousel,
+    .small__carousel {
+        display: flex;
+    }
+
+    .portfolio__block {
+        margin: 0 10px;
+        background-color: #FF2564;
+        color: white;
+    }
+
+
+    .footer__center {
+        display: none;
+    }
+
+    .service__content:hover {
+        height: 390px;
+        width: 270px;
+        padding: 40px 5px;
+        background-color: #E5E5E5;
+    }
+
+    .service__content,
+    .service__content:hover {
+        background-color: #FF2564;
+    }
+
+    .service__content .pink {
+        color: white;
+    }
+
+    .service__content p {
+        color: white;
+    }
+
+    .service__btn {
+        color: black;
+        background-color: #F4F4F4;
+    }
+}
+
+@media (max-width: 750px) {
+    .main {
+        height: fit-content;
+        flex-direction: column-reverse;
+    }
+
+    .main__left {
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .feedback {
+        flex-direction: column-reverse;
+        margin-top: 70px;
+    }
+
+    .service__content {
+        width: 320px;
+    }
+
+    .big__carousel {
+        width: 350px;
+        height: 460px;
+    }
+
+    .carousel-control-prev {
+        margin-left: -55px;
+    }
+
+    .carousel-control-next {
+        margin-right: -55px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer__round {
+        width: 21px;
+        height: 21px;
+    }
+
+    .left__footer_content h4,
+    .left__footer_content h5 {
+        font-size: 10px;
+    }
+
+    .footer__btn {
+        width: 130px;
+        height: 36px;
+        border-radius: 18px;
+        font-size: 10px;
+    }
+
+    .footer__right > h4,
+    .footer__left > h4,
+    .footer__right > h5 {
+        font-size: 10px;
+    }
+
+    .footer {
+        height: 130px;
+    }
+
+    .footer__right,
+    .footer__left {
+        row-gap: 10px;
+    }
+
+    .tg_icon {
+        height: 22px;
+        width: 22px;
+    }
+
+    .inst_icon {
+        height: 55px;
+        width: 55px;
+    }
+
+    .crop__container {
+        height: 22px;
+        width: 22px;
+    }
+
+}
+
+@media (max-width: 560px) {
+    .whoAmI__text,
+    .whoAmI__img {
+        width: 100%;
+    }
+
+    .block__title,
+    .block__subtitle {
+        text-align: center;
+    }
+
+    .form__wrap {
+        width: 100%;
+    }
+
+    .feedback__title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .services {
+        margin-top: 100px;
+    }
+
+    .portfolio {
+        margin-top: 100px;
+    }
+
+    .whoAmI__text {
+        height: fit-content;
+        row-gap: 10px;
+    }
+}
+
+@media (max-width: 560px) {
+    .big_crop_container {
+        width: 330px;
+    }
+
+    .big_crop_container img {
+        width: 380px;
+    }
+
+    .header {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 560px) {
+    .container_custom {
+        padding: 0 35px;
+    }
+
+    .left__header h4,
+    .left__header h5 {
+        font-size: 12px;
+    }
+
+    .header__round {
+        width: 31px;
+        height: 31px;
+    }
+
+    .main img {
+        width: 320px;
+    }
+
+    .main__greeting {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .main__description {
+        font-size: 14px;
+        line-height: 14px;
+        margin-top: 0;
+    }
+
+    .main__left {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .maim__button {
+        width: 100%;
+        margin-top: 0;
+        height: 70px;
+        border-radius: 35px;
+    }
+
+    .block__title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .whoAmI .block__title {
+        text-align: left;
+    }
+
+    .block__subtitle {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .portfolio__wrap {
+        margin-top: 40px;
+    }
+
+    .feedback__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .small__input {
+        height: 46px;
+        border-radius: 23px;
+        padding: 0 15px;
+    }
+
+    .big__input {
+        height: 100px;
+        margin-bottom: 25px;
+        margin-top: 5px;
+        padding: 10px 15px;
+    }
+
+    .form__wrap {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 20px 25px;
+    }
+
+    .footer {
+        margin-top: 100px;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .big__carousel {
+        width: 300px;
+    }
+
+    .service__content {
+        width: 270px;
+    }
+
+    .carousel-control-prev {
+        margin-left: -30px;
+    }
+
+    .carousel-control-next {
+        margin-right: -30px;
+    }
+    .big_crop_container{
+        width: 290px;
+    }
+
+    .big_crop_container img{
+        width: 350px;
+    }
+}
+
+@media (max-width: 360px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .footer__btn {
+        display: none;
+    }
+
+    .footer {
+        height: fit-content;
+    }
+
+    .footer__inner {
+        padding: 15px 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__left,
+    .footer__right {
+        row-gap: 7px;
+    }
+
+    .footer__right {
+        margin-top: 7px;
+        margin-left: -10px;
+    }
+
+}
+
+
